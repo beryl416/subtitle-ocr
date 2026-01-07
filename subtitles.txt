@@ -1,0 +1,293 @@
+[01:18:29] yam Just a moment ago, | made some pretty big claims by saying that
+[01:18:31] Claude was an expert at making use of tools. And
+[01:18:34] that Claude code was easily extensible. Naturally,
+[01:18:37] you might be a little skeptical, so I'd like to give you a few
+[01:18:39] quick demonstrations. On this table are the
+[01:18:42] default tools that are available in Claude code. It
+[01:18:44] has all the abilities you would expect, like reading files,
+[01:18:47] writing files, running commands, and so on. |'m
+[01:18:50] going to show you a couple of tasks completed using
+[01:18:52] Claude Code. And in each case, it will use
+[01:18:55] this set of tools in rather intelligent ways. And
+[01:18:58] in at least one task, I'll even give Claude an
+[01:19:00] additional new set of tools to make use of.
+[01:19:03] Not only will this process give you a good idea of what Claude
+[01:19:06] code can do right out of the box, but hopefully
+[01:19:09] you will also see how easily you can extend Claude
+[01:19:12] code with more functionality. Here's my
+[01:19:14] first task for Claude code. I'm going to ask it to fincjeamae
+[01:19:17] land optimize performance issues in the chalk library.gaama
+[01:19:21] In case you're not familiar with it, chalk is a JavaScript package.
+[01:19:24] Here's the documentation for it. Now this is a verymumil
+Breund thic nackace
+[01:19:26] ' Here's the documentation for it. Now this is a very :
+[01:19:26] a mteres the documentation for it. Now this is a 0
+hold jtatie underline ERRWSRBRB che kethrough
+[01:19:27] Info small library that has one very simple purpose. :
+6 months ago
+[01:19:27] Sees mall library that has one very simple purpose. ;
+Highlights mats
+[01:19:28] Highligh small library that has one very simple purpose. :
+[01:19:29] Highlights | :
+[01:19:30] Highlights All it does is print out text in nicely formatted :
+[01:19:31] dade A|| it does is print out text in nicely formatted :
+= Expressive API >-Trv on RunKit
+[01:19:33] colors, so like exactly as you see in this example screenshot
+» Expressive API >-Try on RunKit
+[01:19:36] aright here. So you can give the text colors or backgrounds
+» Expressive API >-Try on RunKit
+[01:19:38] iedeeaedand formatting, all that kind of stuff. Now, this
+[01:19:41] A a
+» Expressive API | prmnaninan Kit |
+[01:19:41] ded might sound like a really simple and silly package,
+» Expressive API >-Try on RunKit
+[01:19:44] PHS TIBI a
+» Expressive API | >-Try on RunKit |
+[01:19:44] weabut here's the thing. It turns out this is actually the fifth
+[01:19:47] res greer yellow olue magenta Cyan white baB Lack UnpackedSize —_Total Files
+fogked boYel Lowgl sil BbgMagental lbgwhite 44.2kB pb
+[01:19:47] eres! downloaded package in the entire JavaScript oso ae
+[01:19:48] cs! downloaded package in the entire JavaScript ecosystem.
+rea greer yellow blue ragqenle cyan white baBlac« bed Cie oot Eile
+[01:19:49] es! downloaded package in the entire JavaScript coo cic ae
+bold atelic under Line sTrakethrough
+tect greerp yellow mlue reagent cvan white KaBlac«
+[01:19:49] most downloaded package in the entire JavaScript ecosystem.
+bold italic underline strikethrough
+[01:19:50] wera lebbahatitabal
+5.4.1 MIT
+bold italic underline FORA strikethrough
+[01:19:51] Last week in particular, it had 420 %aeaee
+bold italic underline FORA strikethrough
+[01:19:53] wera leahbahaeitabal
+5.4.1 MIT
+bold italic underline FOWARRS strikethrough
+[01:19:54] — ion downloads. So this package is usediiif!
+bold italic underline slrikethrough
+[01:19:56] far and wide to put it simply. If MT
+bold italic underline FON strikethrough
+[01:19:59] — could find any way to optimize anything Se
+bold italic underline strikethrough
+[01:20:02] — package, well, it would probably be worth the cf ae
+bold italic underline strikethrough
+[01:20:05] So I'm going to ask Claude to run the benchmarks, identify
+[01:20:08] the worst performing cases, use some profiling tools
+[01:20:11] to figure out why those cases are running so slowly, and then
+[01:20:13] fix them. We'll then see that Claude is going to use a wide
+[01:20:16] variety of different tools to intelligently tackle this problem. : :
+[01:20:20] It'll form up a 2DList to track its progress,
+»» auto-accept edits on
+[01:20:22] 1
+»» auto-accept edits on
+[01:20:23] execute commands to run the benchmarks, write a file to better
+»» auto-accept edits on
+[01:20:25] »» auto-accept edits on
+[01:20:26] zoom in on one particular case, use a CPU
+»» auto-accept edits on
+[01:20:29] profiler to understand why that case is running so slowly,
+»» auto-accept edits on
+[01:20:31] »» auto-accept edits on
+[01:20:32] and then implement some improvements. By the end,
+»» auto-accept edits on
+[01:20:34] we'll get a 3.9 times improvement in throughput
+[01:20:37] >» auto-accept edits on
+[01:20:38] in one particular operation around this library. Here's
+[01:20:41] another example of how well Claude can string together different
+[01:20:44] tool calls to complete a rather complex task. |'m
+[01:20:46] going to give it a data set inside the CSV file. All
+[01:20:49] the data inside of here contains information about different users
+[01:20:52] of a video streaming platform. And I'm going to ask it to
+[01:20:54] just do a general analysis, maybe identify some causes
+[01:20:57] of churn on the platform. And | want all this analysis|
+[01:21:00] to be done inside of a Jupyter notebook. Here's
+[01:21:03] my data set. I'm then going to ask Claude to run
+[01:21:06] wer orgie ey the analysis and let's see how it does. This is
+[01:21:09] mas a great example of where effective tool use is really
+[01:21:11] important. You see, it's not really enough that
+[01:21:14] verar’ + “Claude just writes code into a notebook. Claude can
+[01:21:15] . METS writes code into a notebook. Claude can
+[01:21:16] |
+* Pp—o .
+[01:21:17] also execute code in different cells and view the results
+peice Soule code in aivcron. Cols an
+[01:21:20] Do executions. That means that Claude
+[01:21:21] a ie lof those executions. That means that Claude
+| DPT
+[01:21:23] intl can take some initial look at the data in the notebook and
+int ¢ : . }
+[01:21:25] joes. pan, then customize each successive cell to hone
+Cpeaic engageres i caneniey be ie ped oy by oeess
+[01:21:28] lg-w uss gus. then customize each successive cell to hone
+Croabooemqonettsri caus. bare ¢ es Cb i rans
+[01:21:28] Loewe pet's gh yes aif on some particular details. Next
+Croabls oenmqoncreri cai bare t es Cb i rans
+[01:21:28] lec vichelt. I. On some particular details. Next
+XTosev or laach¢ » fontsize .2)
+[01:21:29] a a ae on some particular details. Next
+) fj=/u. lal = |
+[01:21:30] in on some particular details. Next
+[01:21:31] up, I'd like to show you an example of a task where | extend Claude
+[01:21:34] Code's capabilities by giving it access to a new set
+[01:21:37] of tools. | built a small app that will
+[01:21:39] generate Ul components based upon some description entered
+[01:21:42] ion the left side of the screen. The generated component
+[01:21:45] is then displayed on the right side. Now, the app can
+[01:21:48] generate good looking components quite easily, but
+[01:21:50] the chat interface on the left and the header at the top}
+[01:21:53] are not looking so nice. So
+[01:21:56] I'm going to use Claude Code to improve the styling. If
+[01:21:59] | just asked it to fix the styling and the chat interface in the
+[01:22:01] header, it would likely do a fine job. But remember,
+[01:22:04] my goal here is to show you how easy it is to}
+[01:22:07] add additional functionality to Claude Code. So along
+[01:22:09] with this styling task, I'm going to also give Claude Code
+[01:22:12] access to a new set of tools provided by
+[01:22:15] something called the Playwright MCP server, which
+[01:22:17] I'll tell you more about later on. These tools allow
+[01:22:20] Claude to directly open and control a browser.
+[01:22:24] So here's what that process looks like in action. I'm
+[01:22:26] going to ask Claude to improve the styling of my app and moka
+[01:22:29] use of a browser to do so. It'll then oC)
+[01:22:32] a browser on the right-hand side of the screen. Navigate to os
+[01:22:34] cuta accept edignp, It'll take a screenshot to view the current SO,
+[01:22:37] oes Pe
+[01:22:37] cuto accept ediz> cand then update the styling. We could even oS
+[01:22:40] cuto accept ed Olgude to take another screenshot of the page wh
+[01:22:43] cute accepit was Complete and iterate on the design a couple of ca
+[01:22:45] cute accept ediss otQ really get a nice design that really pops. 2
+[01:22:49] «before long, we've got something that actually looks pretty reasonable J
+[01:22:53] There's one last set of demonstrations that | like to give you. Remember,
+[01:22:56] what | mentioned a moment ago. Claude's ability to
+[01:22:58] utilize tools so well is what will allow Claude code
+[01:23:01] to grow with you and your team in the future. Let
+[01:23:04] me show you an example of that right away. Claude has
+[01:23:07] a very close integration with GitHub. You can set up Claude’
+[01:23:10] code to run inside of a GitHub action,
+[01:23:12] where it will be executed automatically based upon certain
+[01:23:15] events, like creating a pull request or,
+[01:23:18] when directly mentioned inside an issue. When
+[01:23:20] Claude Code runs on GitHub, it not only gets
+[01:23:23] to view and run your code, but it also
+[01:23:26] gets to access a new Set of tools for interacting
+[01:23:28] with GitHub, like the ability to create comments}
+[01:23:31] or create commits or pull requests and so on. You
+[01:23:34] can use this integration to automatically review pull
+[01:23:37] requests. Let me show you an example. Let me first
+[01:23:40] set up a little scenario for you. Let's imagine that we are
+[01:23:42] building out some infrastructure on AWS, and all
+[01:23:45] lof our infrastructure is to find inside of a set of terraform
+[01:23:48] files, which are committed and stored on GitHub.
+[01:23:51] Because all of our infrastructure is to find inside of terraform
+[01:23:54] files, Claude Code has a really good idea of how
+[01:23:56] information is flowing through our infrastructure.
+[01:23:59] And let's imagine that in the SAP, | have a DynamoDB
+[01:24:02] table. If you're not familiar with those, it's kind of like a normal database
+[01:24:05] table. Inside there, I'm storing some different information
+[01:24:08] about users, including maybe plans viewed and
+[01:24:11] a registration date. And for maybe some
+[01:24:13] reason, we want to share just that plans viewed and
+[01:24:16] registration date information with some internal
+[01:24:19] marketing team, but also some external
+[01:24:22] marketing team as well. So some other company has
+[01:24:25] access to the data that we are writing in this bucket.
+[01:24:27] So it's really important for us to always be aware of what information
+[01:24:30] is being written into that bucket over time. Nightly,
+[01:24:34] we might have a Lambda function, pull out all the different users
+[01:24:37] that have been added into that table, and then extract just
+[01:24:40] plans for you and the registration date, and store
+[01:24:43] that in the S3 bucket so these two marketing teams
+[01:24:45] can access that information. Now let's
+[01:24:48] imagine that months later on, the internal
+[01:24:51] marketing team asks us to also store the email
+[01:24:54] inside of this S3 bucket as well. So we might
+[01:24:56] go into the Lambda function and add in just one single line
+[01:24:59] of code that takes the user's email and stores it inside
+[01:25:02] the bucket. And because this is months later on,
+[01:25:05] we might have completely forgotten that this S3 bucket
+[01:25:08] is shared with a external marketing partner. So
+[01:25:10] now at this point in time, we are putting personally identifiable
+[01:25:13] information into this bucket, which is accessible}
+[01:25:16] in the bucket
+[01:25:16] by a separate company. This is a big no-no. Definitely
+[01:25:19] something we would not want to do. But at the same time, this
+[01:25:22] is an error that does occur, and it's kind
+[01:25:25] lof hard to catch if we don't have a good idea of exactly
+[01:25:27] what's going on with this S3 bucket. Well,
+[01:25:30] it turns out that Claude Code can catch this kind
+[01:25:33] lof scenario inside of a pull request quite easily,
+[01:25:35] specifically because all of our infrastructure is defined inside
+[01:25:38] lof those terraform files. So here's a quick example.
+[01:25:39] 7 lof those terraform files. So here's a quick example. ®
+claude bot commented 3 days ago; edited ~ oe ores
+[01:25:41] Projects
+a claude (bot ) commented 3 days ago - edited ~ eee ae
+[01:25:42] me! built that project that | just showed you in that diagram. |
+a) claude bot commented 3 days ago - edited ~ ee eee
+[01:25:45] 7 created a pull request to add in thei
+a) claude bot commented 3 days ago - edited ~ ee Proce
+[01:25:47] Projects
+i claude (bot ) commented 3 days ago - edited ~ eee ae
+[01:25:48] Mmmuser's email inside of the Lambda function. So the only
+a) claude bot commented 3 days ago - edited ~ ee oes
+[01:25:50] user's email inside of the Lambda function. So the only
+[01:25:50] line of code that | changed was that right there. I'm saying that
+[01:25:53] for every user, | want to get their email and add that into
+[01:25:55] the bucket as well. Now, Claude
+[01:25:56] - the bucket as well. Now, Claude
+a) claude bot commented 3 days ago - edited ~ ee Proves
+[01:25:58] 7 has an excellent idea of my infrastructure. So
+a) tclaude bot commented 3 days ago - edited ~ ee eee
+[01:25:59] SS oenaias an excellent idea of my infrastructure. Som
+Critical security issue identified with Pll exposure to partner accounts. ‘Successtully marging this pull raquest may clas
+[01:26:00] Review worktlow file cl 1 1 BL Unsubscribe
+wahas an excellent idea of my infrastructure. SojMIIiammasl
+
+Analyze terraform infrd _ ? ae eiving notifications because you were
+
+Check for partner account access and Pil exposure risks mentioned.
+[01:26:00] Poameemrnas an excellent idea of my infrastructure. So
+leeme: Thie DD lntearhiene 4 earlaiie earurite wiinarahilitey kas aeddine pear amailaddraccac {DID te date that fe aitanniatinally. pase ennvuereatinn
+[01:26:01] edna t WAS able, inside of a automated review, this!
+Detailed Analysis:
+[01:26:01] Peet Was able, inside of a automated review, this
+shared with external partner accounts.
+[01:26:04] mawve're seeing right here, to take a look at all the changes | made
+shared with external partner accounts.
+[01:26:06] eeeeedinside this pull request. It was able to figure out exactly
+shared with external partner accounts.
+[01:26:09] eeenow my infrastructure works, and it was able to identify:
+shared with external partner accounts.
+[01:26:11] meammeow my infrastructure works, and it was able to identify
++ The analytics S3 bucket policy ( infrastructure/analytics/modules/s3-analytics—bucket/main. tf: 114-133 ) grants the
+[01:26:11] meeehOow my infrastructure works, and it was able to identify
+© s3:ListBucket - Can list all objects in the bucket
+[01:26:12] feeeeenow my infrastructure works, and it was able to identify
+[01:26:12] 4. Data Storage Loeation: that | am exposing some PIl to
+[01:26:15] peeenemena partner. So it has listed out the data flow
+[01:26:17] 3. Data Storage Location:
+[01:26:18] aeemerright here, the exact steps that occur. and goes
+[01:26:20] Mae ight here, the exact steps that occur. and goes
+external partners without explicit consent and data processing agreements.
+[01:26:21] Wapato great detail on how this bucket is shared with a
+external partners without explicit consent and data processing agreements.
+[01:26:23] enn external partner. Catching issues like this
+external partners without explicit consent and data processing agreements.
+[01:26:26] Wameeee curing development instead of after we deploy this
+external partners without explicit consent and data processing agreements.
+[01:26:28] Settee sais
+4. Unauthorized Pil Sharing: Email addresses are personally identifiable information that should not be shared with
+external partners without explicit consent and data processing agreements.
+[01:26:29] Waneeemechange is an amazing benefit to using Claude
+external partners without explicit consent and data processing agreements.
+[01:26:31] ene Oce's integration on GitHub. I'm going to go into
+external partners without explicit consent and data processing agreements.
+[01:26:34] Weare lot of detail later on and show you exactly how to set
+external partners without explicit consent and data processing agreements.
+[01:26:37] 4. Unauthorized Pil Sharing: Email addre Up a flow exactly like this. | think
+external partners without explicit consent and data processing agreements.
+[01:26:38] up a flow exactly like this. | think!
+[01:26:39] that we've now got a good idea of wnat Claude Code can do thanks!
+[01:26:42] to its excellent ability to make use of tools. Remember,
+[01:26:45] you really want to think of Claude Code as a flexible assistant
+[01:26:48] that can be customized, grow, and change over time to
+[01:26:51] meet the needs of your team.
